@@ -1,6 +1,8 @@
 mongoQuery.js
 =============
 
+http://AndersDJohnson.github.com/mongoQuery.js/
+
 A multi-environment, standalone implemenation of the Mongo Query Lanaguage (http://www.mongodb.org/display/DOCS/Mongo+Query+Language and http://www.mongodb.org/display/DOCS/Advanced+Queries).
 
 Support
