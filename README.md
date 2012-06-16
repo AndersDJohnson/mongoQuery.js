@@ -13,7 +13,7 @@ Supports most of query features of the query language in the 2.x release of Mong
 dot notation in specificying properties
 http://www.mongodb.org/display/DOCS/Dot+Notation+(Reaching+into+Objects)
 
-Javascript Expressions and $where
+JavaScript Expressions and $where
 http://www.mongodb.org/display/DOCS/Advanced+Queries#AdvancedQueries-JavascriptExpressionsand%7B%7B%24where%7D%7D
 
 Meta query operators:
@@ -35,6 +35,28 @@ Underscore.js (http://underscorejs.org/)
 Tests depend on:
 Mocha (http://visionmedia.github.com/mocha/)
 Expect.js (https://github.com/LearnBoost/expect.js)
+
+To Do
+=====
+* Add support for dot notation in property specifiers
+* Add support for JavaScript Expressions
+* Add support for $where modifier
+* Implement update modifiers (presently, it's not CRUD but just R):
+    * $inc
+    * $set
+    * $unset
+    * $push
+    * $pushAll
+    * $addToSet and $each
+    * $pop
+    * $pull
+    * $pullAll
+    * $rename
+    * $bit
+* Implement localStorage as a store / persistence option
+* Add functionality to push queries to server over:
+    * AJAX
+    * WebSockets
 
 License
 =======
