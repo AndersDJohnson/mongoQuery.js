@@ -53,10 +53,15 @@ To Do
     * $pullAll
     * $rename
     * $bit
-* Implement localStorage as a store / persistence option
-* Add functionality to push queries to server over:
-    * AJAX
-    * WebSockets
+ 
+* Implement plugins / wrappers for data persistence with query support
+    * using client-side storage via HTML5 localStorage
+
+* Add functionality to proxy queries to mongodb or other database servers:
+    * using AJAX
+    * using WebSockets
+    * using URL parameters (serialization vs. translation?)
+
 
 License
 =======
