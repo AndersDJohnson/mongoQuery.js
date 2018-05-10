@@ -33,7 +33,7 @@ Dependencies
 Underscore.js (http://underscorejs.org/)
 
 Tests depend on:
-Mocha (http://visionmedia.github.com/mocha/)
+Mocha (http://mochajs.org/)
 Expect.js (https://github.com/LearnBoost/expect.js)
 
 To Do
